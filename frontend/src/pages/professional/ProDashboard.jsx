@@ -27,7 +27,6 @@ export default function ProDashboard() {
 
   return (
     <>
-      {JSON.stringify(selectedService)}
       <div className="container">
         <div className="row">
           <div className="col-sm-4">
