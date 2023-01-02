@@ -5,5 +5,23 @@
     "@mui/material": "^5.10.10",
     "core-util-is": "^1.0.3",
     "jsonwebtoken": "^8.5.1"
-  }
+  },
+  "name": "serveease",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhishekN7/serveEase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhishekN7/serveEase/issues"
+  },
+  "homepage": "https://github.com/AbhishekN7/serveEase#readme",
+  "description": ""
 }
