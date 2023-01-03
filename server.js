@@ -10,10 +10,10 @@ const cors = require("cors")
 db()
 app.use(cors())
 app.use(express.json())
-app.use("/api/user", userRoute)
-app.use("/api/auth", authRoute)
-app.use("/api/professional", professionalRoute)
-app.use("/api/services", servicesRoute)
+app.use("https://serve-ease-app.onrender.com/api/user", userRoute)
+app.use("https://serve-ease-app.onrender.com/api/auth", authRoute)
+app.use("https://serve-ease-app.onrender.com/api/professional", professionalRoute)
+app.use("https://serve-ease-app.onrender.com/api/services", servicesRoute)
 
 
 app.listen(process.env.PORT, () => {
